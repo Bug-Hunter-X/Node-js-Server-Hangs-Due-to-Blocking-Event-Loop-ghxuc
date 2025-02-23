@@ -1,0 +1,1 @@
+This repository demonstrates a common Node.js error where a long-running synchronous operation blocks the event loop, causing the server to hang.  The `bug.js` file shows the problematic code. The solution, in `bugSolution.js`, uses asynchronous operations to prevent blocking.
